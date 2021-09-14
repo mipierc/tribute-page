@@ -1,27 +1,22 @@
 body{
-  background-color: black;
-  margin-left: 60px;
-  margin-right: 60px;
+  background-color: white;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
-
-.heading{
-  color: white;
-  background-color: black;
-  display: flex;
-  border: dotted white 2px;
-  justify-content: center;
-  padding: 10px;
+.nav{
   text-transform: uppercase;
+  padding: 10px;
   font-size: 14px;
-}
-
-.main{
-  color: white;
-  background-color: black;
   display: flex;
   justify-content: center;
+  border: dotted blue 2px;
+}
+
+.banner{
   margin-top: 30px;
   padding: 50px;
-  border: dotted white 2px;
+  display: flex;
+  justify-content: center;
+  border: dotted blue 2px;
 }
