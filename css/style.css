@@ -1,22 +1,76 @@
 body{
+  font-family: "Arial";
   background-color: white;
+  margin-top: 20px;
   margin-left: 80px;
   margin-right: 80px;
 }
 
-.nav{
-  text-transform: uppercase;
-  padding: 10px;
-  font-size: 14px;
-  display: flex;
-  justify-content: center;
-  border: dotted blue 2px;
+.grid-container{
+  border: 2px dashed black;
+  padding: 1em;
+  display: grid;
+  grid-gap: 1em 2em;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+                      "nav-bar nav-bar nav-bar nav-bar"
+                      "banner banner banner banner"
+                      "image-panel image-panel image-panel sidepanel-head"
+                      "image-panel image-panel image-panel sidepanel"
+                      "feat1 feat2 feat3 feat4"
+                      "footer footer footer footer"
+}
+
+.grid-item{
+  border: 2px dashed lightgrey;
+  background-color: #f8f8ff;
+  text-align: center;
+}
+
+.nav-bar{
+  grid-area: nav-bar;
+  font-size: 9px;
 }
 
 .banner{
-  margin-top: 30px;
-  padding: 50px;
-  display: flex;
-  justify-content: center;
-  border: dotted blue 2px;
+  grid-area: banner;
+  padding: 2.5em;
+}
+
+.sidepanel{
+  grid-area: sidepanel;
+  padding: 6em;
+}
+
+.sidepanel-head{
+  grid-area: sidepanel-head;
+  font-size: 10px;
+}
+
+.image-panel{
+  grid-area: image-panel;
+}
+
+.feat1{
+  grid-area: feat1;
+  padding: 1em;
+}
+
+.feat2{
+  grid-area: feat2;
+  padding: 1em;
+}
+
+.feat3{
+  grid-area: feat3;
+  padding: 1em;
+}
+
+.feat4{
+  grid-area: feat4;
+  padding: 1em;
+}
+
+.footer{
+  grid-area: footer;
 }
