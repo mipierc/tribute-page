@@ -2,43 +2,100 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Tribute Page</title>
-    <link href="css\normalize.css" rel="stylesheet">
-    <link href="css\defaults.css" rel="stylesheet">
-    <link href="css\style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Giants.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <section class="grid-container">
-      <section class="grid-item nav-bar">
-        <h2>This is the navigation bar</h2>
+    <nav class="main-nav">
+      <div class="brand">
+        <img src="img/logo.png" alt="NY Giants logo" >
+        <h1>New York Giants</h1>
+      </div>
+      <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Stats</a>
+        <a href="#" class="active">News</a>
+        <a href="#">Team</a>
+      </div>
+    </nav>
+    <h2>New York Giants News</h2>
+    <main>
+      <section class="even">
+        <div class="outer">
+          <div class="inner">
+            <h3>Jones Comes up Big in Road Win</h3>
+            <p>After the Giants entered the game after a rough 0-3 start to  the season, Daniel Jones stepped up for his squad this past Sunday against the Saints, throwing for over 400 yards and 2 touchdowns. The Giants offense got going in the second half, and they looked unstoppable. Barkley ran in the game winner in OT to give the Giants their first win on the season.</p>
+            <button class="btn" href="#">More &#10140;</button>
+          </div>
+        </div>
+        <div class="img">
+          <img src="img/jones-big-game.jpg" alt="Daniel Jones running for an 8 yard pickup against the Saints" >
+        </div>
       </section>
-      <section class="grid-item banner">
-        <h2>This is the banner</h2>
+      <hr>
+      <section class="even">
+        <div class="img">
+          <img src="img/manning-speech.jpg" alt="Giants team logo" >
+        </div>
+        <div class="outer">
+          <div class="inner">
+            <h3>Eli Manning Ring of Honor Induction</h3>
+            <p>At the half during the Giants week 3 matchup against the Saints, the Giants retired Manning's number and added his name to the ring of honor at MetLife.</p>
+            <button class="btn" href="#">More &#10140;</button>
+          </div>
+        </div>
       </section>
-      <section class="grid-item sidepanel">
-        <h2>This is the side panel</h2>
+      <hr>
+      <section class="even">
+        <div class="img">
+          <img src="img/manning-show-bts.jpg" alt="Behind the scenes of the manning show" >
+        </div>
+        <div class="outer">
+          <div class="inner">
+            <h3>Behind the Scenes: The Manning Show</h3>
+            <p>This week, Eli Manning debuted his newest show, <em>The Manning Show</em>. Interested in how this week's show was put together? Check out some behind the scenes images from filming!</p>
+            <button class="btn" href="#">More &#10140;</button>
+          </div>
+        </div>
       </section>
-      <section class="grid-item sidepanel-head">
-        <h2>This is the side panel header</h2>
+      <hr>
+      <section class="even">
+        <div class="outer">
+          <div class="inner">
+            <h3>Game Balls</h3>
+            <p>The Giants came up with a big win this past week against the New Orleans Saints. After the game, Joe Judge handed out two game balls, both on the offensive side of the ball. He also gave a shoutout to one of his defensive leaders. Read more to find out who got this week's game balls! </p>
+            <button class="btn" href="#">More &#10140;</button>
+          </div>
+        </div>
+        <div class="img">
+          <img src="img/game-balls.jpg" alt="Giants celebrate reception after big play" >
+        </div>
       </section>
-      <section class="grid-item image-panel">
-        <h2>This is the image-panel</h2>
+      <hr>
+      <section class="even">
+        <div class="img">
+          <img src="img/birthday.jpg" alt="Giants celebrate Jabrill Peppers birthday presented by invisalign" >
+        </div>
+        <div class="outer">
+          <div class="inner">
+            <h3>Birthday Boy</h3>
+            <p>The Giants victory over the Saints was a nice birthday gift for Jabrill Peppers, who was celebrating his birthday this past Sunday. The Giants were able to pick up their first win of the season as a birthday gift for Peppers.</p>
+            <button class="btn" href="#">More &#10140;</button>
+          </div>
+        </div>
       </section>
-      <section class="grid-item feat1">
-        <h2>This is a trending article</h2>
-      </section>
-      <section class="grid-item feat2">
-        <h2>This is a trending article</h2>
-      </section>
-      <section class="grid-item feat3">
-        <h2>This is a trending article</h2>
-      </section>
-      <section class="grid-item feat4">
-        <h2>This is a trending article</h2>
-      </section>
-      <section class="grid-item footer">
-        <h2>This is the footer</h2>
-      </section>
-    </section>
+    </main>
+    <footer>
+      <p>&copy; 2021 Michael Pierce</p>
+      <p>Photos belong to the copyright holders</p>
+      <a href="#">Privacy Policy</a>
+    </footer>
   </body>
 </html>
